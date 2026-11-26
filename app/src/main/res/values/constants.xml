@@ -7,7 +7,7 @@
 	<string name="url_user_manual" translatable="false">https://kototoro-app.github.io/Kototoro</string>
 	<string name="url_discord" translatable="false">https://discord.gg/xBXvPz7tr7</string>
 	<string name="account_type_sync" translatable="false">org.kototoro.sync</string>
-    <string name="github_updates_repo" translatable="false">Kototoro-app/Kototoro</string>
+    <string name="github_updates_repo" translatable="false">fluxxex90etc/Kototoro</string>
     <!-- Branch the out-of-band config files (docs/*.json) are read from.
          The repo default branch is "devel", not "main" — hardcoding "main"
          made every mirror-list refresh 404. Keep this in sync with CI. -->
@@ -30,7 +30,7 @@
 	<string name="sync_authority_favourites" translatable="false">org.skepsun.kototoro.favourites</string>
 	<string name="tg_backup_bot_name" translatable="false">kototoro_backup_bot</string>
 	<string name="discord_app_id" translatable="false">1533311715364831252</string>
-	<string name="app_icon_url" translatable="false">https://raw.githubusercontent.com/Kototoro-app/Kototoro/refs/heads/devel/metadata/en-US/icon.png</string>
+	<string name="app_icon_url" translatable="false">https://raw.githubusercontent.com/fluxxex90etc/Kototoro/refs/heads/devel/metadata/en-US/icon.png</string>
 	<string-array name="values_theme" translatable="false">
 		<item>-1</item>
 		<item>1</item>
