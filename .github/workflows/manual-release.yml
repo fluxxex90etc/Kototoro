@@ -60,10 +60,10 @@ jobs:
     
     - name: Decode keystore
       env:
-        KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+        KEYSTORE_ENC_PASS: ${{ secrets.KEYSTORE_ENC_PASS }}
       run: |
-        if [ -n "$KEYSTORE_BASE64" ]; then
-          echo "$KEYSTORE_BASE64" | base64 -d > release.keystore
+        if [ -n "$KEYSTORE_ENC_PASS" ]; then
+          openssl enc -d -aes-256-cbc -pbkdf2 -in shiawase-release.keystore.enc -out release.keystore -pass env:KEYSTORE_ENC_PASS
         else
           echo "No keystore found, creating debug keystore"
           keytool -genkey -v -keystore release.keystore -alias release \
