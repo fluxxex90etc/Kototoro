@@ -4,7 +4,7 @@
 	<style name="Base.V31.Kototoro" parent="Base.V30.Kototoro">
 		<item name="android:windowSplashScreenAnimatedIcon">@drawable/avd_splash</item>
 		<item name="android:windowSplashScreenAnimationDuration">@integer/splash_screen_duration</item>
-		<item name="android:windowSplashScreenBackground">@color/m3_sys_color_dynamic_dark_surface</item>
+		<item name="android:windowSplashScreenBackground">@color/launcher_background</item>
 	</style>
 
 	<style name="Theme.Kototoro.AppWidgetContainer" parent="@android:style/Theme.DeviceDefault.DayNight">
