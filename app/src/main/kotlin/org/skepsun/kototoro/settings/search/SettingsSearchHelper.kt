@@ -685,6 +685,7 @@ class SettingsSearchHelper @Inject constructor(
             "about_donate_afdian" to R.string.about_donate_afdian,
             "about_app_translation" to R.string.about_app_translation_summary,
             "about_discord" to R.string.about_discord,
+            "about_instagram" to R.string.about_instagram,
             "crash_logs" to R.string.crash_logs
         )
         aboutKeys.forEach { (key, titleRes) ->
