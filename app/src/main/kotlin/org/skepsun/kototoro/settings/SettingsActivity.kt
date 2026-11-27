@@ -2254,6 +2254,7 @@ class SettingsActivity :
             org.skepsun.kototoro.core.prefs.AppSettings.KEY_LINK_AFDIAN -> R.string.url_afdian
             org.skepsun.kototoro.core.prefs.AppSettings.KEY_LINK_MANUAL -> R.string.url_user_manual
             org.skepsun.kototoro.core.prefs.AppSettings.KEY_LINK_DISCORD -> R.string.url_discord
+            org.skepsun.kototoro.core.prefs.AppSettings.KEY_LINK_INSTAGRAM -> R.string.url_instagram
             else -> return false
         }
         val title = when (key) {
@@ -2263,6 +2264,7 @@ class SettingsActivity :
             org.skepsun.kototoro.core.prefs.AppSettings.KEY_LINK_AFDIAN -> getString(R.string.about_donate_afdian)
             org.skepsun.kototoro.core.prefs.AppSettings.KEY_LINK_MANUAL -> getString(R.string.user_manual)
             org.skepsun.kototoro.core.prefs.AppSettings.KEY_LINK_DISCORD -> getString(R.string.about_discord)
+            org.skepsun.kototoro.core.prefs.AppSettings.KEY_LINK_INSTAGRAM -> getString(R.string.about_instagram)
             else -> null
         }
         return if (router.openExternalBrowser(getString(urlRes), title)) {
