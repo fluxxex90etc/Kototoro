@@ -6,6 +6,7 @@
 	<string name="url_weblate" translatable="false">https://hosted.weblate.org/engage/kototoro</string>
 	<string name="url_user_manual" translatable="false">https://kototoro-app.github.io/Kototoro</string>
 	<string name="url_discord" translatable="false">https://discord.gg/xBXvPz7tr7</string>
+	<string name="url_instagram" translatable="false">https://www.instagram.com/fluxxex_</string>
 	<string name="account_type_sync" translatable="false">org.kototoro.sync</string>
     <string name="github_updates_repo" translatable="false">fluxxex90etc/Kototoro</string>
     <!-- Branch the out-of-band config files (docs/*.json) are read from.
