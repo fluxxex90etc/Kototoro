@@ -3737,6 +3737,7 @@ class AppSettings @Inject constructor(@ApplicationContext private val context: C
         const val KEY_TRACKER_DEBUG = "tracker_debug"
         const val KEY_LINK_WEBLATE = "about_app_translation"
         const val KEY_LINK_DISCORD = "about_discord"
+        const val KEY_LINK_INSTAGRAM = "about_instagram"
         const val KEY_LINK_GITHUB = "about_github"
         const val KEY_LINK_DONATE = "about_donate"
         const val KEY_LINK_AFDIAN = "about_donate_afdian"
