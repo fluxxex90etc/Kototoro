@@ -160,6 +160,14 @@ fun AboutSettingsScreen(
                             onClick = { onLinkClick(AppSettings.KEY_LINK_DISCORD) },
                         )
                     }
+                    item {
+                        SettingsActionPreference(
+                            title = stringResource(R.string.about_instagram),
+                            iconRes = R.drawable.ic_share,
+                            summary = stringResource(R.string.url_instagram),
+                            onClick = { onLinkClick(AppSettings.KEY_LINK_INSTAGRAM) },
+                        )
+                    }
                 }
             }
         }
@@ -206,6 +214,16 @@ private fun AboutBanner() {
                     text = stringResource(R.string.app_name),
                     style = MaterialTheme.typography.headlineSmall,
                     color = MaterialTheme.colorScheme.onPrimaryContainer,
+                )
+                Text(
+                    text = "By Yumi & Floppa",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onPrimaryContainer,
+                )
+                Text(
+                    text = "Based on Kototoro",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.8f),
                 )
             }
         }
